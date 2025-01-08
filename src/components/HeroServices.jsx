@@ -1,6 +1,4 @@
-import show2 from "../assets/show2.jpg";
-import show3 from "../assets/show3.jpg";
-import show4 from "../assets/show4.jpg";
+
 
 const HeroServices = () => {
   return (
@@ -8,7 +6,7 @@ const HeroServices = () => {
       <h1 className="flex justify-center text-5xl pt-10 z-0">Services</h1>
       <div className="flex justify-center space-x-20 pt-10 servicesDivMain1">
         <div className="servicesDiv img2">
-          <img src={show2} alt="" className="imgNew2" />
+          <img src="/show2.jpg" alt="" className="imgNew2" />
         </div>
         <div className="servicesDiv txt2">
           <p>
@@ -69,12 +67,12 @@ const HeroServices = () => {
           </p>
         </div>
         <div className="servicesDiv img3">
-          <img src={show3} alt="" className="imgNew2" />
+          <img src="/show3.jpg" alt="" className="imgNew2" />
         </div>
       </div>
       <div className="flex justify-center space-x-20 pt-10 servicesDivMain3">
         <div className="servicesDiv img4">
-          <img src={show4} alt="" className="imgNew2" />
+          <img src="/show4.jpg" alt="" className="imgNew2" />
         </div>
         <div className="servicesDiv txt4">
           <p>

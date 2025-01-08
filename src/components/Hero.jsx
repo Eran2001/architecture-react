@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import hero from "../assets/hero.jpg";
 import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
@@ -16,7 +15,7 @@ const Hero = () => {
   return (
     <div className="section hero h-screen bg-gray-950 text-white relative">
       <div className="absolute inset-0 flex items-center justify-center">
-        <img src={hero} alt="" className="object-cover w-full h-full" style={{ filter: 'brightness(80%) blur(4px)' }} />
+        <img src="/hero.jpg" alt="" className="object-cover w-full h-full" style={{ filter: 'brightness(80%) blur(4px)' }} />
         {showText && (
           <div className="text-container">
             <h1 className="text-field one text-shadow">Welcome to Our Architecture Firm</h1>

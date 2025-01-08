@@ -1,4 +1,4 @@
-import image from "../assets/image-1.jpg"
+
 
 const Card = () => {
   return (
@@ -7,7 +7,7 @@ const Card = () => {
         <a href="#">
           <img
             className="rounded-t-lg"
-            src={image}
+            src="/image-1"
             alt=""
           />
         </a>
@@ -48,7 +48,7 @@ const Card = () => {
         <a href="#">
           <img
             className="rounded-t-lg"
-            src={image}
+            src="/image-1"
             alt=""
           />
         </a>
@@ -89,7 +89,7 @@ const Card = () => {
         <a href="#">
           <img
             className="rounded-t-lg"
-            src={image}
+            src="/image-1"
             alt=""
           />
         </a>
